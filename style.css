@@ -1,0 +1,28 @@
+p::first-letter{
+    font-size: 3rem;
+    color: blue;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: aqua;
+    color:brown;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/images/logo.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
