@@ -1,28 +1,53 @@
-p::first-letter{
-    font-size: 3rem;
-    color: blue;
+/*
+*{
+    margin: 0;
 }
+*/
 
-p::first-line{
-    color: red;
-}
+/*div, header{
+    background-color: aliceblue;
+}*/
 
-p::selection{
-    background-color: aqua;
-    color:brown;
-}
+/*div p{
+    background-color: aquamarine;
+}*/
 
-li{
-    list-style: none;
-}
+/*.simba p{
+    background-color: aquamarine;
+}*/
 
-li::before{
-    content: '';
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-image: url(./assets/images/logo.jpg);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
+/*#head > p{
+        background-color: #ccff00;
+}*/
+
+/*#head + p{
+    background-color: blueviolet;
+}*/
+
+/*header ~ p{
+    background-color: blueviolet;
+}*/
+
+/*[width]{
+    background-color: bisque;
+}*/
+
+/*[width = "500px"]{
+    background-color: bisque;
+}*/
+
+/*[title~="título"]{
+    background-color: bisque;
+}*/
+
+/*[title^="t"]{
+    background-color: bisque;
+}*/
+
+/*[title$="1"]{
+    background-color: bisque;
+}*/
+
+[title*="u"]{
+    background-color: bisque;
 }
