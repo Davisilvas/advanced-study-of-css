@@ -1,26 +1,8 @@
-/*img{
-    width: 500px;
-    transform: rotate(-45deg);
-}
-
-img{
-    width: 500px;
-    transform: ;
-}
-
-*/
-
-/*img{
-    width: 500px;
-    transform: scale(2);
-}*/
-
-/*img{
-    width: 500px;
-    transform:scale(2,4) ;
-}*/
-
-img{
-    width: 500px;
-    transform: skew(45deg);
+div{
+    width: 420px;
+    height: 300px;
+    -webkit-transform: skew(30deg, 30deg) scale(0.7, 1);
+    -ms-transform: skew(30deg, 30deg) scale(0.7, 1);
+    transform: skew(30deg, 30deg) scale(0.7, 1);
+    background-color: red;
 }
