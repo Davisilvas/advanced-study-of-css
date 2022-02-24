@@ -1,8 +1,16 @@
-div{
-    width: 420px;
-    height: 300px;
-    -webkit-transform: skew(30deg, 30deg) scale(0.7, 1);
-    -ms-transform: skew(30deg, 30deg) scale(0.7, 1);
-    transform: skew(30deg, 30deg) scale(0.7, 1);
-    background-color: red;
+:root{
+    --var_cor: orange;
+    --var_margem: margin: 0;
+}
+
+.p2{
+    color: var(--var_cor);
+    font-size: 40px;
+    margin: var(--var_margem);
+}
+
+.p3{
+    color: var(--var_cor);
+    font-size: 15px;
+    margin: var(--var_margem);
 }
