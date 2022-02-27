@@ -1,16 +1,28 @@
-:root{
-    --var_cor: orange;
-    --var_margem: margin: 0;
+.container{
+    display: flex;
+    flex-direction:column;
+    /*flex-direction: row;*/
+
+    height: 400px;
+    background-color: gray;
+    color: white;
 }
 
-.p2{
-    color: var(--var_cor);
-    font-size: 40px;
-    margin: var(--var_margem);
+.r1{
+    background-color: red;
 }
 
-.p3{
-    color: var(--var_cor);
-    font-size: 15px;
-    margin: var(--var_margem);
+.r2{
+    background-color: blue;
+}
+
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 100px;
+    height: 100px;
+
+    
 }
