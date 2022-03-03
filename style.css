@@ -1,15 +1,15 @@
 .container{
+    height: 500px;
     color: white;
     padding:13px;
     background-color: rgb(9, 167, 167);
 
     display: grid;
-    grid-template: 100px 100px / 1fr 1fr 1fr;
-    /*grid-template: 100px 100px / 100px 100px 100px;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;*/
-
+    grid-template:auto auto / auto auto auto;
     grid-gap: 10px;
+    justify-items: center;
+    align-items: flex-end;
+    
 }
 
 .r1{
@@ -25,6 +25,6 @@
 }
 
 .rect{
-/*margin-bottom: 2px;
-margin-left: 2px;*/
+    width: 100px;
+    height: 100px;
 }
