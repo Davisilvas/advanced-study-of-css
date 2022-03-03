@@ -1,17 +1,32 @@
 .container{
-    display: flex;
-    align-items: flex-end;
-    height: 290px;
-    background-color: gray;
     color: white;
+    padding:13px;
+    background-color: rgb(9, 167, 167);
+
+    display: grid;
+    /*grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;*/
+
+    /*grid-template-rows: auto auto;
+    grid-template-columns: 10% auto auto;*/
+    
+    /*grid-template-rows: auto auto;
+    grid-template-columns: 10% 150px auto;*/
+    
+    /*grid-template-rows: auto auto;
+    grid-template-columns: 1fr 3fr 1fr;*/
+
+    /*grid-template-rows: 100px 200px;
+    grid-template-columns: 1fr 3fr 1fr;*/
+
+    grid-template: 200px 100px / 1fr 2fr 1fr
 }
 
 .r1{
-    background-color: red;
+    background-color:red ;
 }
 
 .r2{
-    align-self: flex-start;
     background-color: blue;
 }
 
@@ -20,8 +35,6 @@
 }
 
 .rect{
-    width: 190px;
-    height: 100px;
-    
-    
+/*margin-bottom: 2px;
+margin-left: 2px;*/
 }
