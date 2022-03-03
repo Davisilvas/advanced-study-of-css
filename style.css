@@ -1,13 +1,6 @@
 .container{
     display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    
-
-
-
-
-    height: 400px;
+    height: 290px;
     background-color: gray;
     color: white;
 }
@@ -21,12 +14,32 @@
 }
 
 .r3{
+    /*flex-shrink: 0;*/
+    flex-grow: 1;
     background-color: green;
 }
 
 .rect{
-    width: 170px;
+    width: 190px;
     height: 100px;
     
     
 }
+
+/* EXEMOLO DE PROPORÇÃO
+
+.r1{
+    flex-grow: 1;
+    background-color: red;
+}
+
+.r2{
+    flex-grow: 2;
+    background-color: blue;
+}
+
+.r3{    
+    flex-grow: 3;
+    background-color: green;
+}
+/*
