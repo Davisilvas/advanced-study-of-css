@@ -1,15 +1,14 @@
 .container{
-    height: 500px;
     color: white;
     padding:13px;
     background-color: rgb(9, 167, 167);
-
     display: grid;
-    grid-template:auto auto / auto auto auto;
-    grid-gap: 10px;
-    justify-items: center;
-    align-items: flex-end;
-    
+    grid-template-areas:"a2 a2 a2 a2 a2 a2"
+                        "a1 a1 a1 a3 a3 a3"
+                        "a1 a1 a1 a5 a5 a5"
+                        "a6 a6 a6 a6 a6 a4";
+
+
 }
 
 .r1{
@@ -24,7 +23,26 @@
     background-color: green;
 }
 
-.rect{
-    width: 100px;
-    height: 100px;
+.item1{
+    grid-area: a1;
+}
+
+.item2{
+    grid-area: a2;
+}
+
+.item3{
+    grid-area: a3;
+}
+
+.item4{
+    grid-area: a4;
+}
+
+.item5{
+    grid-area: a5;
+}
+
+.item6{
+    grid-area: a6;
 }
